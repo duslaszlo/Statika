@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Kmjell</class>
+ <widget class="QDialog" name="Kmjell">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>688</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Profilok keresztmetszeti jellemzői</string>
+  </property>
+  <widget class="QComboBox" name="profil_csoport">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>381</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+    </font>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="szelvenyek_listaja">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>381</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+    </font>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="profil_csoport_kivalaszto">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>20</y>
+     <width>120</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>Profil-csoport</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="kivalaszto">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>50</y>
+     <width>120</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>Kiválaszt</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pngkep">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>20</y>
+     <width>120</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>PNG-kép</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="kmjellemzok">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>50</y>
+     <width>120</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>Km. jellemzők</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="pngrajz">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>661</width>
+     <height>461</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

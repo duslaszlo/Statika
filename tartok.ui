@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Tartok</class>
+ <widget class="QDialog" name="Tartok">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>749</width>
+    <height>462</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>A projekt tartói</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>141</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>A projekt neve:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Projektnev">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>10</y>
+     <width>351</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+    </font>
+   </property>
+   <property name="tabletTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Projektnév</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>721</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+    </font>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Új tartó:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>121</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>Megnevezés:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>Szelvény:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>150</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>Megjegyzés:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="tartonev">
+   <property name="geometry">
+    <rect>
+     <x>139</x>
+     <y>90</y>
+     <width>371</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="megjegyzes">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>150</y>
+     <width>211</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>60</y>
+     <width>311</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>(Csak konzolos -&gt; hossz =0, konzol1 &lt;&gt;0)</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>536</x>
+     <y>90</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>Hossz:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="hossz">
+   <property name="geometry">
+    <rect>
+     <x>612</x>
+     <y>90</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>90</y>
+     <width>47</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>cm</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>536</x>
+     <y>120</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>Konzol1:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="konzol1">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>120</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>120</y>
+     <width>47</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>cm</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>536</x>
+     <y>150</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>Konzol2:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="konzol2">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>150</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>150</y>
+     <width>47</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>cm</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>190</y>
+     <width>711</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+    </font>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>210</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>Hozzárendelt tartók:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Tartomodositas">
+   <property name="geometry">
+    <rect>
+     <x>614</x>
+     <y>210</y>
+     <width>111</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>Módosítás</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tartolista">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>241</y>
+     <width>711</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+    </font>
+   </property>
+   <property name="rowCount">
+    <number>0</number>
+   </property>
+   <column>
+    <property name="text">
+     <string>ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Tartónév</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Hossz (cm)</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Konzol1 (cm)</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Konzol2 (cm)</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Szelvény</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Törlés</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QComboBox" name="szelvenyek_listaja">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>120</y>
+     <width>371</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+    </font>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Tartobeiro">
+   <property name="geometry">
+    <rect>
+     <x>364</x>
+     <y>150</y>
+     <width>151</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>Hozzárendelés</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Frissito">
+   <property name="geometry">
+    <rect>
+     <x>574</x>
+     <y>10</y>
+     <width>131</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Frissítés</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
